@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise Java Script</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script>
+//Variables
+    // var a = "kumar"
+    //  a=20;
+    //  var a= "vijay"
+    // console.log(a);
+
+    // let b = 40;
+    // b=45;
+    // console.log(b);
+
+    // const c = "macha";
+    // d=85;
+    // console.log(c);
+    
+    // console.log(typeof c);
+
+    // var a=10;
+    // alert("hello hi");
+
+    
+//  confirm("whats ur name" );
+
+// let a1="vijay"
+// console.log(typeof (a1));
+
+// var b1=741552
+// console.log(typeof b1)
+
+// let a2= false
+// console.log(typeof a2);
+
+// let a3;
+// console.log(typeof a3);
+
+// let b2 = prompt()
+// console.log( b2);
+
+// console.clear();
+
+// Section  1 - Basic Arithmetic
+           //addition
+   let add1 = 25 ;
+      add2=4;
+    //  sum =add1+add2;  one more options
+    //  console.log(sum);
+      console.log(add1+add2);
+
+            // sunbtraction
+    let sub1=25;
+     sub2=4;
+     // sum=sub1-sub2;  one more option 
+     // console.log(sum);
+      
+    console.log(sub1-sub2);
+       
+            // multi
+    let mul1=25;
+    mul2=4;
+    console.log(mul1*mul2);
+
+       // divi
+    let div =25
+    div1=4;
+    console.log( "The ans is " + div/div1);
+
+    let mod = 100;  //  2.  Print 100 % 30
+
+    mod1=30
+    console.log(100%30);//one more option
+    
+    console.log(mod%mod1);
+
+    console.log(7**2);  //3.  Print 7 ** 2 --> 7*7 =49
+
+    
+
+    console.log(2**5 );  // 4.  Print 2 ** 5  -> 2*2*2*2*2 =32
+
+    console.log(50/5); //  5. Store 50 in a variable and divide by 5
+
+    
+    let div2=50;  // one more option
+    div3=5
+    console.log(div2/div3);
+
+    console.log(45%6);  // 6. Find remainder of 45 divided by 6
+
+    let mul3 = 0.5;   //7. Multiply 0.5 * 8
+    mul4=8
+    sum2=mul3*mul4
+    console.log(sum2);
+    
+    console.log(0.5*8);
+    
+    let sub3 = 200 ;    // 8. Subtract 200 from 75
+
+     sub4=75;
+
+     sum4=sub3-sub4;
+     console.log(sum4);
+
+     let c=10   //   9. Add three numbers (10, 20, 30)
+
+     d=20;
+     e=30;
+     console.log(c+d+e);
+     
+      console.log(9%2);  //10. Find 9 % 2
+
+      console.clear();
+
+      //Section 2
+//      let a = 5
+
+// console.log(a++)   //5
+// console.log(a)     //6
+
+// let a = 5 
+// console.log(++a)    6 
+// console.log(a)      6  
+
+// let a = 10
+// let b = a++       11 
+// console.log(a, b)   10
+
+// let a = 10
+// let b = ++a   11 
+// console.log(a, b)           11
+
+// let a = 1
+// let b = a++ + a++    3
+// console.log(a, b)  3
+
+// let a = 1
+// let b = ++a + ++a    3
+// console.log(a, b)   5
+
+// let a = 3
+// a = a++
+// console.log(a) 3
+
+// let a = 3
+// a = ++a
+// console.log(a) 4
+
+// let x = 5
+// let y = --x
+// console.log(x, y)  4,4
+
+// let x = 5
+// let y = x--
+// console.log(x, y)  4,5
+
+// let a = 2
+// let b = a++ + ++a + a++
+// console.log(a, b)   5,10
+
+// let a = 4
+// let b = --a + a-- + --a
+// console.log(a, b)   1,7
+
+// let a = 1
+// let b = ++a + a++ + ++a
+// console.log(a, b)   4,8
+
+// let a = 5
+// let b = a++ + a++ + a++
+// console.log(a, b)  8,18
+
+let t=10;
+t+=t++;
+console.log("a=10 a+=a++ →",t);
+ 
+console.log("SECTION 3 – Assignment Operators");
+ 
+let v=10;
+v+=5;
+console.log("10 +=5 →",v);
+ 
+v=20;
+v-=8;
+console.log("20 -=8 →",v);
+ 
+v=7;
+v*=3;
+console.log("7 *=3 →",v);
+ 
+v=40;
+v/=5;
+console.log("40 /=5 →",v);
+ 
+v=25;
+v%=4;
+console.log("25 %=4 →",v);
+ 
+let aa=5;
+aa+=3;
+aa*=2;
+console.log("a=5 a+=3 a*=2 →",aa);
+ 
+aa=10;
+aa-=2;
+aa/=4;
+console.log("a=10 a-=2 a/=4 →",aa);
+ 
+aa=8;
+aa%=3;
+console.log("8%=3 →",aa);
+ 
+aa=6;
+aa+=aa;
+console.log("6+=6 →",aa);
+ 
+aa=2;
+aa*=aa+=3;
+console.log("Complex assignment →",aa);
+ 
+console.log("SECTION 4 – Comparison");
+ 
+console.log("5=='5' →",5=="5");
+console.log("5==='5' →",5==="5");
+console.log("0==false →",0==false);
+console.log("0===false →",0===false);
+console.log("null==undefined →",null==undefined);
+console.log("null===undefined →",null===undefined);
+console.log("'10'>5 →","10">5);
+console.log("'2'>'10' →","2">"10");
+console.log("true==1 →",true==1);
+console.log("true===1 →",true===1);
+ 
+console.log("SECTION 5 – Logical Operators");
+ 
+console.log("true && false →",true && false);
+console.log("true || false →",true || false);
+console.log("false || false →",false || false);
+console.log("!true →",!true);
+console.log("!(5>2) →",!(5>2));
+console.log("5>3 && 10>5 →",5>3 && 10>5);
+console.log("5>3 && 10<5 →",5>3 && 10<5);
+console.log("5<3 || 10<5 →",5<3 || 10<5);
+console.log("5<3 || 10>5 →",5<3 || 10>5);
+console.log("(5>2 && 3>1)||(10<2) →",(5>2 && 3>1)||(10<2));
+ 
+console.log("SECTION 6 – Ternary Operator");
+ 
+let age=20;
+console.log(age>=18 ? "Adult":"Minor");
+ 
+let marks=45;
+console.log(marks>=50 ? "Pass":"Fail");
+ 
+let number=7;
+console.log(number%2==0?"Even":"Odd");
+ 
+let score=85;
+let grade= score>90?"A": score>75?"B": score>50?"C":"Fail";
+console.log("Grade →",grade);
+ 
+let num2=-3;
+console.log(num2>=0?"Positive":"Negative");
+ 
+console.log("SECTION 7 – String Concatenation");
+ 
+console.log("Hello"+" "+"World");
+ 
+let first="vijay";
+let last="kumar";
+ 
+console.log("Full Name:",first,last);
+ 
+console.log(`Template: ${first} ${last}`);
+ 
+console.log('"10"+5 →',"10"+5);
+console.log('5+"10" →',5+"10");
+ 
+console.log("SECTION 8 – Implicit Type Conversion");
+ 
+console.log('"5"+2 →',"5"+2);
+console.log('"5"-2 →',"5"-2);
+console.log('"5"*2 →',"5"*2);
+console.log("true+1 →",true+1);
+console.log('false+"1" →',false+"1");
+ 
+console.log("SECTION 9 – Explicit Conversion");
+ 
+console.log("Number('123') →",Number("123"));
+console.log("Number('abc') →",Number("abc"));
+console.log("Number(true) →",Number(true));
+console.log("Boolean('') →",Boolean(""));
+console.log("Boolean('hello') →",Boolean("hello"));
+ 
+console.log("FINAL RAPID FIRE");
+ 
+console.log("== compares value only (type conversion allowed)");
+console.log("=== compares value and type");
+console.log("a++ uses value then increments, ++a increments then uses value");
+console.log("Falsy values: false, 0, '', null, undefined, NaN");
+console.log('"5"-2 works because JS converts string to number');
+console.log('"5"+2 concatenates because + operator joins strings');
+console.log("null == undefined is true because both represent empty values");
+ 
+</script>
+ 
+</body>
+</html>
+
+
+
+
+
+
+     
+     
+
+
+    
+
+    
+    
+
+
+    
+    
+    
+
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+    
+
+    
+    </script>
+</body>
+</html>
